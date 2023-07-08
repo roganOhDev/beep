@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #output {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-size: 100px; /* 숫자 크기 조정 */
+        }
+
+        #playButton {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: #000;
+            color: #fff;
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        #setCount {
+            position: absolute;
+            top: 0;
+            left:50%;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="output"></div>
+<div id="setCount"></div>
+<button id="playButton">재생</button>
+<script src="script.js"></script>
+
+</div>
+</body>
+</html>
